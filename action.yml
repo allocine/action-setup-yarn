@@ -1,0 +1,7 @@
+name: Setup Yarn
+description: Install yarn globally
+runs:
+  using: "composite"
+  steps:
+    - run: npm install -g yarn
+      shell: bash
