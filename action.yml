@@ -5,3 +5,4 @@ runs:
   steps:
     - run: npm install -g yarn
       shell: bash
+  post: "cleanup.js"
