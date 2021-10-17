@@ -1,6 +1,6 @@
 name: Setup Yarn
 description: Install yarn globally
 runs:
-  using: node14
+  using: node12
   main: index.js
   post: cleanup.js
